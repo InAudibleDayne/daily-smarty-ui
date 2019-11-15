@@ -36,6 +36,11 @@
         color: $color-gray-one;
         font-size: 18px;
         line-height: 22px;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
     .resulte-post__links{
         // display: flex;
@@ -55,5 +60,10 @@
         color: $color-gray-one;
         font-size: 14px;
         line-height: 17px;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
